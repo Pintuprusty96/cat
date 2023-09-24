@@ -1,4 +1,4 @@
-#main {
+/* #main {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
@@ -35,4 +35,56 @@
   #new-cat-button:hover {
     background-color: #005fa3;
   }
-  
+   */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    #main {
+      text-align: center;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #333333;
+    }
+
+    #cat-photo-container {
+      margin-top: 20px;
+    }
+
+    img {
+      width: 300px; /* Set the width to 300 pixels */
+      height: 300px; /* Set the height to 300 pixels */
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      object-fit:contain;
+    }
+
+    #new-cat-button {
+      background-color: #009688;
+      color: #ffffff;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+
+    #new-cat-button:hover {
+      background-color: #007d71;
+    }
+    @media (max-width: 600px) {
+      img {
+        width: 100%; /* Make the image take up the full width of the container */
+        height: auto; /* Allow the height to adjust automatically */
+      }
+    }

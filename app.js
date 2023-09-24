@@ -16,11 +16,15 @@
 
  // Define an array of your image URLs
  const imageUrls = [
-   "img/Screenshot (3).png",
-   "img/Screenshot (4).png",
-   "img/Screenshot (5).png",
-   "img/Screenshot (6).png",
-   "img/Screenshot (7).png",
+   "img/aditi2.png",
+   "img/aditi3.png",
+   "img/aditi4.png",
+   "img/aditi5.png",
+   "img/aditi6.png",
+   "img/aditi7.png",
+   "img/aditi8.png",
+
+   
 
    // Add more image URLs as needed
  ];
